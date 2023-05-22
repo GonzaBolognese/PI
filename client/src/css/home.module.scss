@@ -1,0 +1,36 @@
+@import "../sass/mixins.scss";
+
+// .body{
+//     background-image: url(../img/huellas.jpg);
+//     background-size: 800px;   
+// }
+
+
+.paginado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    background-color:#D87093;
+}    
+
+.contHome {
+    min-height: 150vh;
+    //background-color:rgb(161, 215, 226);
+    background-image: url(../img/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+    }
+    
+    .loading{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);        
+    }
+
+
+    
